@@ -1,0 +1,89 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://source.unsplash.com/random/1600x900?cryptocurrency'); /* Changed to a dynamic cryptocurrency-related background */
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f1f1f1; /* General font color */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    color: #ffd700; /* Gold for the title */
+    margin-bottom: 20px;
+    font-size: 2.5em; /* Larger title font */
+}
+
+input {
+    padding: 12px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #ffd700; /* Gold border */
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #333; /* Darker background for input */
+    color: #ffd700; /* Gold text color */
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #00b894; /* Teal button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00936b; /* Darker teal on hover */
+}
+
+.crypto-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.crypto-item {
+    background-color: #222; /* Darker background for items */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.crypto-item h3 {
+    margin-bottom: 10px;
+    color: #ffd700; /* Gold color for item titles */
+    font-size: 1.5em;
+}
+
+.crypto-item p {
+    margin-bottom: 5px;
+    color: #f1f1f1; /* Lighter text color */
+    font-size: 1.1em;
+}
